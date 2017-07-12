@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Não Durma no Ponto</string>
+    <string name="preferences">MyAppPreferences</string>
+    <string name="config_latitude">MyApp_configLatitude</string>
+    <string name="config_longitude">MyApp_configLongitude</string>
+    <string name="config_distancia">MyApp_configDistancia</string>
+    <string name="config_vibrar">MyApp_configVibrar</string>
+    <string name="config_piscar">MyApp_configPiscar</string>
+    <string name="config_ativado">MyApp_configAtivado</string>
+</resources>

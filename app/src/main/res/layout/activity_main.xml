@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="br.com.vitorota.naodurmanoponto.view.MainActivity">
+
+    <EditText
+        android:id="@+id/main_etLatitude"
+        android:layout_width="@dimen/components_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:hint="Latitude"
+        android:inputType="numberSigned|numberDecimal"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/main_etLongitude"
+        android:layout_width="@dimen/components_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:hint="Longitude"
+        android:inputType="numberSigned|numberDecimal"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/main_etDistancia"
+        android:layout_width="@dimen/components_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:hint="Distância em metros"
+        android:inputType="numberDecimal"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Switch
+        android:id="@+id/main_swVibrar"
+        android:layout_width="@dimen/components_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:checked="true"
+        android:text="Vibrar"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Switch
+        android:id="@+id/main_swPiscar"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:text="Piscar tela"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/main_bLigar"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="Ligar"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:onClick="bLigarClick"/>
+</LinearLayout>
+

@@ -1,2 +1,2 @@
 # NaoDurmaNoPonto
-app para acordar de acordo com a distância configurada
+app para acordar de acordo com a Localização configurada
